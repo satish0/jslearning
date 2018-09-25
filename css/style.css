@@ -1,0 +1,134 @@
+*{
+	padding: 0;
+	margin: 0;
+	outline: 0;
+	border: 0;
+}
+
+a, a:hover, a:focus, a:active {
+	padding: 0;
+	margin: 0;
+	outline: 0;
+	border: 0;
+}
+
+
+body {
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.container_320 {
+	max-width: 320px;
+	margin: 0 auto;
+	background: #edf0f1;
+}
+
+.section_1 {
+	margin: 0 auto;
+}
+
+header {
+	max-width: 100%;
+	background: #27b99a;
+	padding: 10px;
+	border-radius: 0 0 10px 10px;
+}
+
+header input {
+	width: 100%;
+	text-indent: 5px;
+	background: #66c4ab;
+	padding: 10px;
+	font-size: 20px;
+	position: relative;
+	border-radius: 25px 50px 50px 25px;
+	color: #fff;
+}
+
+
+header input::placeholder {
+    color: #fff;
+}
+
+header button {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 50%;
+	right: 25px;
+	background: #fff;
+	border-radius: 50%;
+	z-index: 2;
+	cursor: pointer;
+	transform: translate(0,-50%);
+}
+
+
+
+
+header button svg {
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+
+.section_2 {
+	margin: 0 auto;
+}
+
+
+
+.item_1 {
+	width: 100%;
+	text-indent: 5px;
+	background: #66c4ab;
+	padding: 10px;
+	font-size: 20px;
+	position: relative;
+	border-radius: 25px 50px 50px 25px;
+	color: #fff;
+}
+
+
+.item_1 input {
+	width: 100%;
+	text-indent: 5px;
+	background: #66c4ab;
+	padding: 10px;
+	font-size: 20px;
+	position: relative;
+	border-radius: 25px 50px 50px 25px;
+	color: #fff;
+}
+
+.item_1 input::placeholder {
+    color: #fff;
+}
+
+/*.item_1 button {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 50%;
+	right: 25px;
+	background: #fff;
+	border-radius: 50%;
+	z-index: 2;
+	cursor: pointer;
+	transform: translate(0,-50%);
+}
+
+
+.item_1 button svg {
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}*/
